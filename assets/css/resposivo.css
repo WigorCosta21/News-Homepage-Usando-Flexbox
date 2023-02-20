@@ -1,0 +1,418 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .content-title {
+        padding: 0.938rem 0.938rem 0.938rem 0;
+    }
+
+    .content-title h1 {
+        font-size: 1.875rem;
+    }
+
+    .card-img img {
+        width: 80px;
+        height: 130px;
+    }
+
+    .card-number {
+        font-size: 1.125rem;
+        margin-bottom: 5px;
+    }
+
+    .card-title {
+        font-size: 0.875rem;
+        margin-bottom: 5px;
+    }
+
+    .card-text {
+        font-size: 0.813rem;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .item {
+        display: none;
+    }
+
+    .icon-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .icon-mobile button {
+        border: none;
+        background-color: transparent;
+    }
+
+    .icon-mobile-close {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+    }
+
+    .menu-mobile button {
+        background-color: transparent;
+        border: none;
+    }
+
+    .menu-mobile .button img {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menu-mobile {
+        width: 50%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-image: linear-gradient(to bottom right, #FFF, #FFF);
+    }
+
+    .menu-mobile ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+
+    .menu-mobile .item {
+        padding-top: 1.25rem;
+    }
+
+    .menu-mobile .item {
+        display: block;
+    }
+
+    .menu-mobile .nav-link {
+        color: #000;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .container {
+        padding: 0 6.25rem;
+    }
+
+    .area {
+        flex-direction: column;
+    }
+
+    .content-title {
+        font-size: 1.875rem;
+    }
+
+    .area-right {
+        margin-left: 0px;
+    }
+
+    .cards {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card-number {
+        font-size: 1.875rem;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .card-text {
+        font-size: 0.938rem;
+    }
+
+
+}
+
+@media (min-width: 321px) and (max-width: 425px) {
+    .container {
+        padding: 0 1.25rem;
+    }
+
+    .logo img{
+        width: 40px;
+    }
+
+    .item {
+        display: none;
+    }
+
+    .icon-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .icon-mobile button {
+        border: none;
+        background-color: transparent;
+    }
+
+    .icon-mobile-close {
+        display: flex;
+        justify-content: flex-end;
+        padding: 1.25rem;
+    }
+
+    .menu-mobile button {
+        background-color: transparent;
+        border: none;
+    }
+
+    .menu-mobile .button img {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menu-mobile {
+        width: 50%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-image: linear-gradient(to bottom right, #FFF, #FFF);
+    }
+
+    .menu-mobile ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.25rem;
+    }
+
+
+    .menu-mobile .item {
+        padding-top: 1.563rem;
+    }
+
+    .menu-mobile .item {
+        display: block;
+    }
+
+    .menu-mobile .nav-link {
+        color: #000;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .area {
+        flex-direction: column;
+    }
+
+    .left-img {
+        background-image: url(../images/image-web-3-mobile.jpg);
+    }
+
+    .content {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .content-title {
+        font-size: 1.875rem;
+        padding: 0.625rem 0.625rem 0.625rem 0;
+    }
+
+    .content-text {
+        padding: 0.625rem 0.625rem 0.625rem 0;
+    }
+
+    .area-right {
+        min-width: 320px;
+        margin-left: 0;
+    }
+
+    .new-title h2 {
+        font-size: 1.875rem;
+    }
+
+    .cards {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card-number {
+        font-size: 1.563rem;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .card-text {
+        font-size: 0.938rem;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 0 0.625rem;
+    }
+
+    .logo img{
+        width: 40px;
+    }
+
+    .item {
+        display: none;
+    }
+
+    .icon-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .icon-mobile button {
+        border: none;
+        background-color: transparent;
+    }
+
+    .icon-mobile-close {
+        display: flex;
+        justify-content: flex-end;
+        padding: 1.25rem;
+    }
+
+    .menu-mobile button {
+        background-color: transparent;
+        border: none;
+    }
+
+    .menu-mobile .button img {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menu-mobile {
+        width: 60%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-image: linear-gradient(to bottom right, #FFF, #FFF);
+    }
+
+    .menu-mobile ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.25rem;
+    }
+
+
+    .menu-mobile .item {
+        padding-top: 1.563rem;
+    }
+
+    .menu-mobile .item {
+        display: block;
+    }
+
+    .menu-mobile .nav-link {
+        color: #000;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .area {
+        flex-direction: column;
+    }
+
+    .left-img {
+        background-image: url(../images/image-web-3-mobile.jpg);
+    }
+
+    .content {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .content-title {
+        font-size: 30px;
+        padding: 0.625rem 0.625rem 0.625rem 0;
+    }
+
+    .content-text {
+        padding: 0.625rem 0.625rem 0.625rem 0;;
+    }
+
+    .area-right {
+        min-width: 240px;
+        margin-left: 0;
+    }
+
+    .new-title h2 {
+        font-size: 20px;
+    }
+
+
+    .content-new {
+        margin-top: 30px;
+    }
+
+    .new-content-title {
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .new-content-text {
+        margin-bottom: 25px;
+    }
+
+    .cards {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        margin-bottom: 1.25rem;
+    }
+
+    .card-number {
+        font-size: 0.938rem;
+    }
+
+    .card-title {
+        font-size: 0.938rem;
+    }
+
+    .card-text {
+        font-size: 0.813rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
